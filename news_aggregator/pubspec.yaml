@@ -1,0 +1,33 @@
+name: news_aggregator
+description: "NewsFlow - A professional news aggregator app with RSS feeds, category filters, offline reading, and bookmarks."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.2
+  http: ^1.2.2
+  xml: ^6.5.0
+  sqflite: ^2.4.1
+  path: ^1.9.0
+  connectivity_plus: ^6.1.1
+  cached_network_image: ^3.4.1
+  url_launcher: ^6.3.1
+  share_plus: ^10.1.3
+  shimmer: ^3.0.0
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
