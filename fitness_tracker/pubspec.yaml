@@ -1,0 +1,27 @@
+name: fitness_tracker
+description: "FitTrack — A professional fitness tracking app with workout logs, step counter via sensors, and progress graphs."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.2
+  sqflite: ^2.4.1
+  path: ^1.9.0
+  sensors_plus: ^6.1.1
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
