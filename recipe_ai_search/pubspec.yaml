@@ -1,0 +1,63 @@
+name: recipe_ai_search
+description: A professional Flutter app for searching recipes by ingredients with AI-powered features, nutrition info, and favorites synchronization.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.10.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+  # State Management
+  provider: ^6.1.0
+
+  # HTTP & API
+  http: ^1.1.0
+  dio: ^5.4.0
+
+  # Local Storage
+  hive: ^2.2.3
+  shared_preferences: ^2.2.2
+
+  # UI & Design
+  google_fonts: ^6.2.0
+  flutter_rating_bar: ^4.0.1
+  shimmer: ^3.0.0
+
+  # API Integration
+  google_generative_ai: ^0.4.7
+
+  # Utils
+  intl: ^0.19.0
+  uuid: ^4.0.0
+
+  # Networking
+  connectivity_plus: ^5.0.2
+
+  # Animations
+  lottie: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/animations/
+    - assets/icons/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600

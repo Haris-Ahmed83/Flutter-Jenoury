@@ -1,0 +1,87 @@
+# Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+/ios/Flutter/Flutter.podspec
+/ios/Flutter/Flutter.framework
+/ios/Flutter/Flutter.modulemap
+/ios/Pods/
+/ios/.symlinks/
+/ios/Flutter/flutter_export_environment.sh
+/ios/ServiceDefinitions.json
+/ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+
+# Android
+.gradle/
+.android/
+local.properties
+/android/app/debug
+/android/app/profile
+/android/app/release
+/android/.gradle/
+/android/.idea/
+/android/gradle
+/android/gradlew
+/android/gradlew.bat
+/android/local.properties
+/android/settings.gradle
+
+# Web
+/web/
+lib/generated_plugin_registrant.dart
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+*.iml
+*.lock
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Dependencies
+pubspec.lock
+
+# Secrets
+lib/services/secrets.dart
+google-services.json
+GoogleService-Info.plist
+
+# macOS
+macos/Flutter/GeneratedPluginRegistrant.swift
+macos/Flutter/Flutter-Debug.xcconfig
+macos/Flutter/Flutter-Release.xcconfig
+macos/Flutter/GeneratedPlugins.cmake
+
+# Windows
+windows/flutter/generated_plugins.cmake
+windows/flutter/generated_plugin_registrant.cc
+windows/flutter/generated_plugins.cmake
+windows/flutter/generated_plugin_registrant.h
+windows/flutter/flutter_windows.dll
+
+# Linux
+linux/flutter/generated_plugins.cmake
+linux/flutter/generated_plugin_registrant.cc
+linux/flutter/generated_plugin_registrant.h
+linux/flutter/plugins/flutter_linux/ephemeral/flutter_linux/
+
+# Coverage
+coverage/
+
+# Miscellaneous
+*.log
+*.rar
+*.zip
+*.tar.gz
+*.7z
