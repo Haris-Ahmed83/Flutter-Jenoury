@@ -361,13 +361,13 @@ class OrderDetailScreen extends StatelessWidget {
               color: AppTheme.accentColor.withValues(alpha: 0.1),
               borderRadius: BorderRadius.circular(8),
             ),
-            child: Row(
+            child: const Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                const Icon(Icons.check_circle,
+                Icon(Icons.check_circle,
                     size: 16, color: AppTheme.accentColor),
-                const SizedBox(width: 6),
-                const Text(
+                SizedBox(width: 6),
+                Text(
                   'Paid via Stripe',
                   style: TextStyle(
                     fontSize: 13,

@@ -11,3 +11,34 @@ Thumbs.db
 .vscode/
 *.swp
 *.swo
+
+# Flutter/Dart/Pub
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+*.iml
+*.lock
+
+# iOS/macOS
+**/ios/Flutter/.last_build_id
+**/ios/Pods/
+**/macos/Flutter/GeneratedPluginRegistrant.swift
+
+# Android
+**/android/.gradle
+**/android/captures/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/local.properties
+
+# Web
+lib/generated_plugin_registrant.dart
+
+# Python
+*.pyc
+__pycache__/
+generate_assets.py

@@ -37,6 +37,7 @@ class CircularProgress extends StatelessWidget {
               backgroundColor: backgroundColor,
             ),
           ),
+          // ignore: use_null_aware_elements
           if (child != null) child!,
         ],
       ),

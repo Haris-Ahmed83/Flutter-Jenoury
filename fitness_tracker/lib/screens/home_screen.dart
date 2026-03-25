@@ -148,6 +148,7 @@ class _HomeTab extends StatelessWidget {
       child: RefreshIndicator(
         onRefresh: () async {
           await context.read<WorkoutProvider>().loadWorkouts();
+          // ignore: use_build_context_synchronously
           await context.read<StepProvider>().initialize();
         },
         child: CustomScrollView(

@@ -92,7 +92,7 @@ class _HomeScreenState extends State<HomeScreen> {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          Column(
+          const Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
@@ -100,15 +100,13 @@ class _HomeScreenState extends State<HomeScreen> {
                 style: TextStyle(
                   fontSize: 24,
                   fontWeight: FontWeight.w700,
-                  color: AppTheme.textPrimary,
                 ),
               ),
-              const SizedBox(height: 2),
+              SizedBox(height: 2),
               Text(
                 'Find your perfect product',
                 style: TextStyle(
                   fontSize: 14,
-                  color: AppTheme.textSecondary,
                 ),
               ),
             ],
@@ -252,24 +250,22 @@ class _HomeScreenState extends State<HomeScreen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Icon(Icons.error_outline,
-                size: 64, color: Colors.grey.shade400),
+            const Icon(Icons.error_outline,
+                size: 64, color: Colors.grey),
             const SizedBox(height: 16),
-            Text(
+            const Text(
               'Something went wrong',
               style: TextStyle(
                 fontSize: 18,
                 fontWeight: FontWeight.w600,
-                color: AppTheme.textPrimary,
               ),
             ),
             const SizedBox(height: 8),
             Text(
               provider.error!,
               textAlign: TextAlign.center,
-              style: TextStyle(
+              style: const TextStyle(
                 fontSize: 14,
-                color: AppTheme.textSecondary,
               ),
             ),
             const SizedBox(height: 24),
@@ -285,26 +281,24 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   Widget _buildEmptyWidget() {
-    return Center(
+    return const Center(
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Icon(Icons.search_off, size: 64, color: Colors.grey.shade400),
-          const SizedBox(height: 16),
+          Icon(Icons.search_off, size: 64, color: Colors.grey),
+          SizedBox(height: 16),
           Text(
             'No products found',
             style: TextStyle(
               fontSize: 18,
               fontWeight: FontWeight.w600,
-              color: AppTheme.textPrimary,
             ),
           ),
-          const SizedBox(height: 8),
+          SizedBox(height: 8),
           Text(
             'Try adjusting your search or filters',
             style: TextStyle(
               fontSize: 14,
-              color: AppTheme.textSecondary,
             ),
           ),
         ],
@@ -321,18 +315,16 @@ class _HomeScreenState extends State<HomeScreen> {
           const SizedBox(height: 16),
           Text(
             title,
-            style: TextStyle(
+            style: const TextStyle(
               fontSize: 20,
               fontWeight: FontWeight.w600,
-              color: AppTheme.textSecondary,
             ),
           ),
           const SizedBox(height: 8),
-          Text(
+          const Text(
             'Coming soon',
             style: TextStyle(
               fontSize: 14,
-              color: AppTheme.textLight,
             ),
           ),
         ],
